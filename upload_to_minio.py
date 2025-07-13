@@ -49,8 +49,8 @@ except ClientError as e:
         exit(1)
 
 # Create a test file
-file_name = "bye.txt"
-file_content = "Bye abhishek from Minio on Railway!"
+file_name = "hello.txt"
+file_content = "Hello abhishek from Minio on Railway!"
 memory_file = BytesIO(file_content.encode("utf-8"))
 
 # Upload the file to MinIO
